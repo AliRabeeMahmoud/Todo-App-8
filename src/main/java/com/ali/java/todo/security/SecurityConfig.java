@@ -43,6 +43,7 @@ public class SecurityConfig {
                     request.anyRequest().authenticated();
                    })
                 .formLogin(form -> form.permitAll())
+                .csrf(c -> c.disable())   //without disabling csrf, post requests won't work
                .build();
 
     }
