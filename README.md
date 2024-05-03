@@ -7,5 +7,7 @@ This project is developed with Java and Spring boot
 ### with DTO using ModelMapper (also added normal dto)
 ### with validation and custom validation
 ### with custom exception handling 
-### with spring security
+### with spring security:
+#### - InMemory authentication
+#### - Authorization using configuration
 
