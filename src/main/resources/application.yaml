@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: todo-one
+  datasource:
+    url: jdbc:mysql://localhost:3306/todo
+    username: root
+    password: ali45
+  jpa:
+    hibernate:
+      ddl-auto: update
+#  security:
+#    user:
+#      name: ali
+#      password: ali45
+server:
+  port: 8000
+
+
+

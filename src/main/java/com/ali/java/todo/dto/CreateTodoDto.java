@@ -1,0 +1,24 @@
+package com.ali.java.todo.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+
+public class CreateTodoDto {
+
+    private String title;
+
+    private String description;
+
+    private Boolean done;
+
+    private Boolean favorite;
+
+    private Long categoryId;
+
+    private Long userId;
+}
